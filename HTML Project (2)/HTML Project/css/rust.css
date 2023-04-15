@@ -257,3 +257,68 @@ ol{color: red;}
 .contact{
     color:#e4dad1;
 }
+
+/*Assignment 2 Ed*/
+/*Form Styling*/
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cd412b;
+    border-radius: 5px;
+    
+}
+/*label Styling*/
+form label{
+    color:#e4dad1;
+    display: block;
+    font-size: 16px;
+   margin-bottom: 5px;
+}
+
+/*Styling the layout of my form*/
+form input[type="text"],
+form input[type="email"],
+form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Styling submit button*/
+form button[type="submit"] {
+  background-color: #e4dad1;
+  color: black;
+/* eliminates annoying border*/
+  border: none;   
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-transform: uppercase;
+/* adds a smoother transition of colour */
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+  background-color: #5d7239;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form select:focus{
+    background-color:#7CC1C2;
+ 
+}
+
+  form {
+    padding: 10px;
+  }
+
+
+}
+}
+}
