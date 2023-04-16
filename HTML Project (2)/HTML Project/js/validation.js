@@ -2,7 +2,6 @@ $(document).ready(function() {
   $('#shipping-form').validate({
     rules: {
       name: {
-        minlength: 3,
         required: true
       },
       email: {
@@ -20,7 +19,10 @@ $(document).ready(function() {
       city: {
         required: true
       },
-      postal: {
+      state: {
+        required: true
+      },
+      zip: {
         required: true,
         minlength: 5,
         maxlength: 10
@@ -29,8 +31,6 @@ $(document).ready(function() {
     messages: {
       name: {
         required: 'Please enter your name'
-        minlength: 'Please enter a valid phone number',
-  
       },
       email: {
         required: 'Please enter your email address',
@@ -60,4 +60,4 @@ $(document).ready(function() {
       form.submit();
     }
   });
-});
+})
